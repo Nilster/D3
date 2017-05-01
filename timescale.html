@@ -5,15 +5,10 @@
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
 
-drawClock();
+    <div id="scalebar">
+    </div>
 
-setInterval(function(){
-	updateData();
-	moveHands();
-}, 1000);
 
-d3.select(self.frameElement).style("height", height + "px");
-
-</script>
+<script src="scalebar.js"></script>
+</body>
